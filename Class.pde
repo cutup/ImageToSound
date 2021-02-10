@@ -69,7 +69,6 @@
       //println("Sum: ",lineSum);
       int note = round(map(lineSum, 157332, 321676, 30, 130));
       // controllo che non ci siano battiti con note negative 
-      // in teoria la funzione map dovrebbe tornare solo valori positivi perchè mappata da 14-130 ma in realta torna anche valori negativi
       if (note < 0) note = -note;
       //int note1 = int(map(lineSum1,0,17850,14,130));
       // pixels[index]= currentColor;
@@ -91,11 +90,10 @@
 
    }
    
-   
 
   
   /*-----------------------------------------
-     dovrebbe suonare la nota ma non funziona
+    Suona una nota
     
   ---------------------------------------------*/
 
