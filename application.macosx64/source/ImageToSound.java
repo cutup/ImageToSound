@@ -19,8 +19,7 @@ public class ImageToSound extends PApplet {
 
 /*------------------------------------------------------------------
   
-                          Esame  Creative Computing  
-                          Mssimiliano Collavo
+                         
                            
   
                              Image To sound
